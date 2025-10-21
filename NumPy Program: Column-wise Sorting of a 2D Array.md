@@ -15,13 +15,18 @@ To write a **NumPy** program that sorts the elements in each column of a given 2
 Add code here
 ```
 import numpy as np
-d=np.array([[3,2,8],[4,12,34],[23,12,67]])
-f=np.array([2,18,32])
-print("Before inserting new column","\n",d)
-a=np.insert(d,3,f,axis=1)
-print("After inserting new column","\n",a)
+d=np.array([[34,43,73],[82,22,12],[53,94,66]])
+print("Printing Original array")
+print(d)
+s=d[:,d[1].argsort()]
+print("Sorting Original array by second row")
+print(s)
+a=d[d[:,1].argsort()]
+print("Sorting Original array by second column")
+print(a)
 ```
 ## Output
-<img width="1920" height="1080" alt="Screenshot (138)" src="https://github.com/user-attachments/assets/68c8375f-595f-4058-8483-cb841b80e4b7" />
+<img width="1920" height="1080" alt="Screenshot (147)" src="https://github.com/user-attachments/assets/82e30988-4961-433b-a1bb-b287c09d56bd" />
+
 
 ## Result
