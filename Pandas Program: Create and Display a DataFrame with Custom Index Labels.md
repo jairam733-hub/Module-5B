@@ -19,8 +19,12 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 ## 💻 Program
 Add code here
 ```
-
+import pandas as pd
+d=pd.DataFrame({'s_id':['S1','S2','S3','S4','S5'],'name':['Dan','Ryder','Bryce','Bernal','Kwame'],'marks':[200, 210, 190, 222,199]})
+print(d)
+```
 
 ## Output
+<img width="1920" height="1080" alt="Screenshot (140)" src="https://github.com/user-attachments/assets/fa5e9a90-43ea-43a0-ac38-ab21b629afd4" />
 
 ## Result
